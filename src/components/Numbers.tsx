@@ -4,21 +4,22 @@ export default function Numbers() {
 
     return (<>
         <div className={large.NContainer}>
-            <h1 className={large.titleNumbers}>Marcas da Growper</h1>
+            <p className={large.pNumbers}>BUSINESS</p>
+            <h1 className={large.titleNumbers}>Oque importa para você?</h1>
             <div className={large.numbersContainer}>
                 <div className={large.itemNambers}>
                     <p>
-                        50
+                        Confiança
                     </p>
                 </div>
                 <div className={large.itemNambers}>
                     <p>
-                        100
+                        Custo
                     </p>
                 </div>
                 <div className={large.itemNambers}>
                     <p>
-                        + 1000
+                        Segurança
                     </p>
                 </div>
             </div>

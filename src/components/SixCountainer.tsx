@@ -2,6 +2,7 @@ import large from '@/app/styles/large.module.css'
 import Image from 'next/image'
 import scrum from '../../public/scrum.png'
 import ButtonLearnMore from '@/components/ButtonLearnMore'
+import logobranco from '../../public/logobranco.png'
 
 export default function SixContainer() {
 
@@ -14,8 +15,18 @@ export default function SixContainer() {
                     <div className={large.titleTrueContainer}>
                         <p className={large.pTrueContainer}>Metodologias ágeis são estruturas de gerenciamento de projetos de objetivo geral, em modelos como estes se busca a otimização contínua dos processos, diferentemente das metodologias clássicas, no ágil é possível gerenciar o projeto de acordo com as suas necessidades ao invés de seguir um escopo rígido e inalterável. Com métodos ágeis é possível fazer melhorias ao longo do desenvolvimento do projeto, além disso corrigir falhas e reduzir riscos de forma rápida e assertiva. <br></br> O universo ágil promove comunicação eficiênte, colaboração e foco em resultados, todo processo de obtenção de valor e atribuição do mesmo ao produto final é facilitado.<br></br> Você não precisa de mais nada pra implementar métodos ágies em seus projetos!</p>
                     </div>
-                    <h1 className={large.subtitleSixContainer}>Romilson Cavalcante</h1>
-                    <p className={large.pTrueContainer}>CEO da Growper - Tecnologias e Gestão de projetos</p>
+                    <div className={large.logosix}>
+                    <Image
+                    src={logobranco}
+                    alt='Growper Tecnologia'
+                    width={400}
+                    height={61}
+                    style={{
+                        marginBottom: 30,
+                        objectFit: "cover"
+                    }}
+                    />
+                    </div>
                 </div>
                 <div className={large.gridSix}>
                     <div className={large.item1_GridSix}>

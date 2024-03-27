@@ -72,7 +72,7 @@
 }
 
 .iconsContent {
-  font-size: 18px;
+  font-size: 14px;
   margin: 0.8rem;
   width: 13rem;
   font-weight: 400;
@@ -105,6 +105,13 @@
 .titleNumbers{
   color: var(--silver);
   font-size: 18px;
+  font-weight: 600;
+}
+
+.pNumbers{
+  color: var(--blue-primary);
+  font-size: 11px;
+  margin-bottom: -3px;
 }
 
 .numbersContainer{
@@ -114,15 +121,27 @@
 
 .itemNambers p{
   color: var(--silver);
-	width: 100px;
-	height: 100px;
-  border: 2px solid var(--blue-primary);
+	width: 120px;
+	height: 120px;
+  border: 1px solid var(--blue-primary);
 	border-radius: 50%;
 	overflow: hidden;
 	float: left;
-  padding: 2rem;
+  padding: 10px;
   margin-right: 1rem;
+  border-right: 7px solid var(--blue-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
+
+.itemNambers p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
 
 .contact{
   position: absolute;
@@ -165,12 +184,12 @@
 
 .secoundContainer{
   height: fit-content;
-  background: var(--white);
-  padding:  3rem 8rem ;
+   padding:  3rem 8rem ;
 }
 
 .titleSecoundContainer{
   display: flex;
+  color: var(--silver);
   align-items: center;
   justify-content: center;
 }
@@ -178,7 +197,7 @@
 
 .titleSecoundContainer h2{
   font-size: 25px;
-  color: var(--neutral-d-gray);
+  color: var(--silver);
   font-weight: 700;
   text-align: center;
 }
@@ -191,7 +210,7 @@
   height: 14rem;
   padding: 1rem;
   margin-top: 2rem;
-  box-shadow: 3px 3px 10px 3px var(--tint-5);
+  box-shadow: 3px 3px 10px 3px var(--blue-primary);
   border:none;
   border-radius: 2.78px;
   position:relative;
@@ -202,7 +221,7 @@
   height: 0; 
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent; 
-  border-right: 25px solid var(--brand-primary);
+  border-right: 25px solid var(--blue-primary);
   position: absolute;
   right: 0;
   top: 0px;
@@ -217,18 +236,20 @@
 .titleCard{
   font-size: 19px;
   font-weight: 700;
-  color: var(--neutral-d-gray);
+  color: var(--silver);
   text-align: center;
 }
 
 .pCard{
   text-align: center;
+  color: var(--silver);
   font-size: 12px;
 }
 
 .iconCard{
   display: flex;
   justify-content: center;
+  color: var(--silver);
   margin-bottom: 0.5rem;
 }
 
@@ -236,11 +257,12 @@
 .trueContainer{
   display: flex;
   height: fit-content;
-  background: var(--white);
+  background-image: url(../../../public/bgsecound.jpg);
+  background-size: cover;
   padding:  5rem 8rem 5rem 8rem ;
   justify-content: space-between;
   flex-wrap: wrap;
-align-items: center;
+  align-items: center;
 }
 
 .imgTrueContainer{
@@ -254,11 +276,35 @@ align-items: center;
 }
 
 .titleTrueContainer h2{
-  font-size: 25px;
-  color: var(--neutral-d-gray);
-  font-weight: 700;
+  font-size: 35px;
+  color: var(--silver);
+  font-weight: 50;
   margin-bottom: 1.5rem;
 }
+
+.titleTrueContainer h3{
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--silver);
+  margin-bottom: 1.5rem;
+}
+
+.titleTrueContainer p{
+  font-size: 16px;
+  padding-top: 2rem;
+  color: var(--silver);
+  margin-bottom: 1.5rem;
+}
+
+.titleTrueContainer h1{
+  font-size: 80px;
+  padding-left: 4rem;
+  font-weight: 500;
+  color: var(--silver);
+  margin-bottom: 1.5rem;
+}
+
+
 
 .pTrueContainer{
   margin-bottom: 1.5rem;
@@ -275,15 +321,15 @@ align-items: center;
 }
 
 .fuorCountainer h2{
-  font-size: 25px;
-  color: var(--neutral-d-gray);
-  font-weight: 700;
+  font-size: 35px;
+  color: var(--brand-primary);
+  font-weight: 200;
 }
 
 .fuorCountainer span{
-  font-size: 25px;
+  font-size: 35px;
   color: var(--brand-primary);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .gridFuorCountainer{
@@ -321,22 +367,45 @@ align-items: center;
 .subitem{
   display: flex;
   align-items: center;
+  color: var(--brand-primary);
 }
 
 .subitem h1{
   font-size: 20px;
-  color: var(--neutral-d-gray);
-  font-weight: 700;
+  color: var(--brand-primary);
+  font-weight: 500;
   margin: 0;
 }
 .subitem p{
-  font-size: 12px;
-  color: var(--neutral-d-gray);
+  font-size: 14px;
+  color: var(--brand-primary);
   margin:0
 }
 
 
 
+
+.fiveContainer{
+  display: flex;
+  height: fit-content;
+  background-image: url(../../../public/bgtrue.jpg);
+  background-size: cover;
+  padding:  5rem 8rem 5rem 8rem ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fivePositiontext{
+  align-items: end;
+  justify-items: end;
+}
+
+.informationsFiveContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
 
 
 
@@ -364,7 +433,16 @@ align-items: center;
 }
 
 .titleSixContainer span{
-  color: var(--brand-primary);
+  color: var(--blue-primary);
+}
+
+.logosix{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .subtitleSixContainer{
@@ -405,7 +483,7 @@ align-items: center;
 
 
 .sevenContainer{
-  padding:  5rem 8rem 5rem 8rem ;
+  padding:  5rem 8rem 8rem 8rem ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -487,8 +565,8 @@ align-items: center;
 .eightContainer h1 {
   text-align: center;
   font-weight: 700;
-  font-size: 44.55px;
-  color: var(--black);
+  font-size: 70px;
+  color: var(--brand-primary);
   margin-bottom: 2rem;
 }
 

@@ -5,7 +5,7 @@ export default function EightContainer(){
 
     return(<>
         <div className={large.eightContainer}>
-            <h1>Quero mudar a minha história <br></br> com a Growper agora.</h1>
+            <h1>Quer mudar a sua história <br></br> com a Growper agora?</h1>
             <ButtonContact/>
         </div>
     </>)

@@ -17,7 +17,7 @@ export default function Footer() {
                 <Image
                     src={logobranco}
                     alt='Growper Tecnologia'
-                    width={130}
+                    width={230}
                     height={40}
                     style={{
                         marginBottom: 30,

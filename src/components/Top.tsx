@@ -8,6 +8,7 @@ import gt from '../../public/gt.png'
 import Nav from "./Nav"
 import Icons from "./Icons"
 import Numbers from "./Numbers"
+import SecoundContainer from "./SecoundContainer"
 
 export default function Top() {
 
@@ -28,10 +29,11 @@ export default function Top() {
                 </div>
             </div>
             <div className={`${large.buttonandNumbers} container-fluid`}>
-                <div>
+                <div className="mb-2">
                     <ButtonContact />
                 </div>
                 <Numbers />
+                <SecoundContainer/>
             </div>
         </div>
     )
